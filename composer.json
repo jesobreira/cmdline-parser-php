@@ -1,0 +1,20 @@
+{
+    "name": "jesobreira/cmdline",
+    "description": "PHP command line arguments parser",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "authors": [
+        {
+            "name": "Jefrey Santos",
+            "email": "jefrey.santos@capitual.io"
+        }
+    ],
+    "keywords": ["cli", "args", "argv", "argc", "terminal", "dos"],
+    "require": {},
+    "autoload": {
+        "psr-4": {"CmdLine\\": "src/"}
+    }
+}
